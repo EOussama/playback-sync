@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/playback-sync/sw.js', { scope: '/playback-sync/' })})}
